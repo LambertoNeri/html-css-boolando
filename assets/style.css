@@ -78,14 +78,13 @@ a:link, a:visited{
     flex: 0 0 33%;
     justify-content: center;
     padding-left: 3rem;
-    width: 1400px;
 }
 
 /* main */
 
 .maincontainer{
     margin-top: 4rem;
-    max-width: 1400px;
+    max-width: 1436px;    /* TODO fixare navbar invece che max width qui */
 }
 
 .items{
@@ -153,4 +152,36 @@ a:link, a:visited{
     font-weight: 600;
     font-size: 0.9rem;
     text-decoration: line-through;
+}
+
+/* footer */
+
+footer{
+    height: 6rem;
+    background-color: black;
+}
+
+.footer{
+    justify-content: space-between;
+    width: 1400px;
+    margin-inline: auto;
+}
+
+.bianco{
+    color: white;
+}
+
+.disinistra{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 100%;
+}
+
+.disinistra a{
+    padding-left: rem;
+}
+
+.disinistra span{
+    flex: 0 0 ;
 }
