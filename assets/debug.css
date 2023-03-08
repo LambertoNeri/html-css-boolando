@@ -4,12 +4,10 @@ header{
 }  */
 
 .maincontainer{
-    background-color: yellow;
-    height: 1000px;
     margin-inline: auto;
 }
 
 .card{
-    background-color: red;
-    height: 300px;
-}
+  /*  background-color: red;
+    height: 300px; */
+}  

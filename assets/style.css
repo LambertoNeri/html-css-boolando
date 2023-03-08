@@ -20,6 +20,32 @@ body{
 .paddingleft{
     padding-left: 1rem;
 }
+
+.background{
+    padding-inline: 0.3rem;
+    padding-top: 0.3rem;
+    padding-bottom: 0.3rem;
+}
+
+.red{
+    background-color: red;
+    color:white;
+}
+
+.white{
+    background-color: white;
+}
+
+.green{
+    background-color: green;
+    color:white;
+}
+
+.column{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
 /* header */
 
 
@@ -28,6 +54,11 @@ header{
     display: flex;
     background-color: #FF6900;
     justify-content: space-around;
+    position: fixed;
+    z-index: 2;
+    left: 0px;
+    top: 0px;
+    right: 0px;
 
 }
 
@@ -47,11 +78,79 @@ a:link, a:visited{
     flex: 0 0 33%;
     justify-content: center;
     padding-left: 3rem;
+    width: 1400px;
 }
 
 /* main */
 
 .maincontainer{
-    max-width: 1200px;
+    margin-top: 4rem;
+    max-width: 1400px;
+}
+
+.items{
+    gap: 1rem;
+    justify-content: space-around;
+    padding-top: 3rem;
+}
+
+.card{
+    flex: 0 0 30%;
+    background-color: #E8E6E3;
+    position: relative;
+
+}
+
+.cardimg{
+    width: 100%;
+}
+
+.cuore{
+    font-size: 2rem;
+    right: 0;
+    top: 0.3rem;
+}
+
+.abs{
+    position: absolute;
     
+    
+}
+
+.sconto{
+    bottom: 7rem;
+    left: 0;
+}
+
+.sustain{
+    bottom: 7rem;
+    left: 3.3rem;
+}
+
+.sustain2{
+    bottom: 7rem;
+    left: 0;
+}
+
+.marca{
+    font-size: 0.8rem;
+}
+
+.fit{
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.eurored{
+    display: inline;
+    color: red;
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.euroblack{
+    display: inline;
+    font-weight: 600;
+    font-size: 0.9rem;
+    text-decoration: line-through;
 }
