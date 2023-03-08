@@ -109,6 +109,9 @@ a:link, a:visited{
     right: 0;
     top: 0.3rem;
 }
+.cuore:hover{
+    color:red
+}
 
 .abs{
     position: absolute;
@@ -194,6 +197,7 @@ a:link, a:visited{
 footer{
     height: 6rem;
     background-color: black;
+    margin-top: 3rem;
 }
 
 .footercontainer{
@@ -218,3 +222,7 @@ footer{
 footer span a{
     font-size: .8rem;
 }
+
+
+
+
