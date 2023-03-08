@@ -161,27 +161,25 @@ footer{
     background-color: black;
 }
 
-.footer{
-    justify-content: space-between;
+.footercontainer{
     width: 1400px;
     margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6rem;
 }
 
-.bianco{
+.sinistra{
+    display: flex;
+    flex-direction: column;
     color: white;
 }
 
-.disinistra{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    max-width: 100%;
+.spazio{
+    padding-left: 1rem;
 }
 
-.disinistra a{
-    padding-left: rem;
-}
-
-.disinistra span{
-    flex: 0 0 ;
+footer span a{
+    font-size: .8rem;
 }
