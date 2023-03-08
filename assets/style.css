@@ -75,16 +75,19 @@ a:link, a:visited{
 }
 
 .primitre{
-    flex: 0 0 33%;
-    justify-content: center;
-    padding-left: 3rem;
+    display: flex;
+    
 }
 
 /* main */
-
+.megacontainer{
+    width: 1400px;
+    margin-inline: auto;
+    justify-content: space-between;
+}
 .maincontainer{
     margin-top: 4rem;
-    max-width: 1436px;    /* TODO fixare navbar invece che max width qui */
+    max-width: 1400px; 
 }
 
 .items{
@@ -94,7 +97,7 @@ a:link, a:visited{
 }
 
 .card{
-    flex: 0 0 30%;
+    flex: 0 0 32%;
     background-color: #E8E6E3;
     position: relative;
 
