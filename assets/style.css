@@ -11,8 +11,47 @@
 body{
 	font-family: 'Golos Text', sans-serif;
 }
+
+.contenitore{
+    display: flex;
+    align-items: center;
+}
+
+.paddingleft{
+    padding-left: 1rem;
+}
 /* header */
+
 
 header{
     height: 4rem;
+    display: flex;
+    background-color: #FF6900;
+    justify-content: space-around;
+
+}
+
+a:link, a:visited{
+    text-decoration: none;
+    color: white;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.boolean{
+    width: 20%;
+    margin-inline: auto;
+}
+
+.primitre{
+    flex: 0 0 33%;
+    justify-content: center;
+    padding-left: 3rem;
+}
+
+/* main */
+
+.maincontainer{
+    max-width: 1200px;
+    
 }
