@@ -1,0 +1,18 @@
+/* reset */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* general styles */
+
+body{
+	font-family: 'Golos Text', sans-serif;
+}
+/* header */
+
+header{
+    height: 4rem;
+}
