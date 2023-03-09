@@ -81,23 +81,23 @@ a:link, a:visited{
 
 /* main */
 .megacontainer{
-    width: 1400px;
+    width: 1200px;
     margin-inline: auto;
     justify-content: space-between;
 }
 .maincontainer{
     margin-top: 4rem;
-    max-width: 1400px; 
+    max-width: 1200px; 
 }
 
 .items{
     gap: 1rem;
-    justify-content: space-around;
+    justify-content: space-between;
     padding-top: 3rem;
 }
 
 .card{
-    flex: 0 0 32%;
+    flex: 0 0 calc(100% / 3 - 2rem);
     background-color: #E8E6E3;
     position: relative;
 
@@ -204,7 +204,7 @@ footer{
 }
 
 .footercontainer{
-    width: 1400px;
+    width: 1200px;
     margin-inline: auto;
     display: flex;
     justify-content: space-between;
