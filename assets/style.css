@@ -113,7 +113,8 @@ a:link, a:visited{
     top: 0.3rem;
 }
 .cuore:hover{
-    color:red
+    color:red;
+    cursor: pointer;
 }
 
 .abs{
